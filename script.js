@@ -45,6 +45,7 @@ function newBlogPost(){
     blogDiv.appendChild(title)
     blogDiv.appendChild(text)
     mainDiv.appendChild(blogDiv)
+    //insert before- name,where
 }
 
 
@@ -53,12 +54,23 @@ function removeLastBlogPost(){
     lastblog.hidden=true
 }
 
+
+
+
+
+
+
 function alertAuthor(){
     let authorNodes=document.querySelectorAll('.blog-post>.blog-post-meta>a')
+    
     for(let i=0;i<authorNodes.length;i++){
-        let authorNode=authorNodes[i]
-        
-        alert(authorNode.innerText)
+         let authorNode=authorNodes[i]
+         authorNode.addEventListener("mouseover", function(){
+            alert(authorNode.innerText)
+         });
+       
+        }
     }
+   
 
-}
+alertAuthor()
