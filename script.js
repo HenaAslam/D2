@@ -24,14 +24,14 @@ function removeTwitter(){
 window.onload=removeTwitter
 
 
-/*function remove50(){
+function remove50(){
     let firstparas=document.querySelectorAll('.blog-post>h2+p ')
     for(let i=0;i<firstparas.length;i++){
     let firstpara=firstparas[i];
-    
+    firstpara.innerText=firstpara.innerText.substring(50)
     }
 
-}*/
+}
 
 function newBlogPost(){
     let mainDiv=document.querySelector('.blog-main');

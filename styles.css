@@ -33,7 +33,7 @@ main h3+div>hr{
     border: 3px solid rgb(223, 65, 65);
 }
 body>a{
-    border: 3px solid rgb(223, 65, 65);
+    border: 3px solid rgb(76, 183, 159);
 }
 .blog-pagination>a:nth-of-type(2){
     border: 3px solid rgb(223, 65, 65);
