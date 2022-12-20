@@ -1,0 +1,50 @@
+div>h1{
+    border:3px solid rgb(223, 65, 65);
+}
+
+
+.nav> *{
+border: 3px solid rgb(223, 65, 65);
+}
+.jumbotron >div>p>a{
+    border: 3px solid rgb(223, 65, 65);
+}
+
+.container>div>div> h3+div{
+    border: 3px solid rgb(223, 65, 65);
+}
+
+main h3+div>hr{
+    border-color:red;
+}
+.nav span:nth-last-of-type(2n+1){
+    background-color: black;
+}
+
+.blog-sidebar .rounded+.p-4>ol>li{
+    border: 3px solid rgb(223, 65, 65);
+}
+
+.blog-post:nth-of-type(2) .blog-post-meta>a{
+    border: 3px solid rgb(223, 65, 65);
+}
+
+.blog-post:nth-of-type(3)>ul>li:nth-last-of-type(2){
+    border: 3px solid rgb(223, 65, 65);
+}
+body>a{
+    border: 3px solid rgb(223, 65, 65);
+}
+.blog-pagination>a:nth-of-type(2){
+    border: 3px solid rgb(223, 65, 65);
+}
+
+.blog-footer .text-center >a:nth-of-type(2){
+    border: 3px solid rgb(223, 65, 65);
+}
+
+
+.greenbg{
+    background-color: green;
+}
+
