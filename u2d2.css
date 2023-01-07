@@ -1,0 +1,36 @@
+.jumbotron h1 {
+    border: 1px solid rgb(150, 247, 53);
+}
+nav>*{
+    border: 1px solid rgb(214, 148, 17);
+}
+.jumbotron a{
+    border: 1px solid rgb(100, 14, 167);
+}
+.blog-post:first-of-type{
+    border: 1px solid rgb(210, 26, 26);
+}
+.blog-post hr:first-of-type {
+    border: 1px solid rgb(210, 26, 26);
+}
+nav span:nth-of-type(2n){
+    background-color: blue;
+}
+.blog-sidebar div:nth-of-type(2) ol li a {
+    color: red;
+}
+.blog-post:nth-of-type(2) p:nth-of-type(1) a{
+    border: 1px solid black;
+}
+.blog-post:nth-of-type(3) ul li:nth-of-type(2){
+    border: 1px solid black;
+}
+body>a{
+    border: 1px solid rgb(193, 26, 143);
+}
+nav.blog-pagination a:last-of-type {
+    background-color: yellow;
+}
+.blog-footer a:nth-of-type(2){
+    background-color: yellow;
+}
